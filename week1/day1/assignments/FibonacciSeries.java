@@ -1,5 +1,7 @@
 package week1.day1.assignments;
 
+
+
 public class FibonacciSeries {
 
 	/*
@@ -16,21 +18,21 @@ public class FibonacciSeries {
 	 */
 
 	public static void main(String[] args) {
-
-		// initialize 3 int variables (Tip: range = 8, firstNum = 0, secNum = 1, sum in the series)
-
-		// Print first number
 		
-		// Iterate from 1 to the range
+		int f=0,s=1,t,i,range=8;
+		System.out.println(f);
+		System.out.println(s);
+		for(i=2;i<range;i++)
+		{
+			t=f+s;
+			System.out.println(t);
+			f=s;
+			s=t;
+			
+		}
 		
-		// add first and second number assign to sum
-
-		// Assign second number to the first number
-
-		// Assign sum to the second number
-		
-		// print sum
 
 	}
-
 }
+// initialize 3 int variables (Tip: range = 8, firstNum = 0, secNum = 1, sum in the series)
+		
